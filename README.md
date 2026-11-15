@@ -105,20 +105,20 @@ nsbm_sportshub/
 
 Database name: `nsbm_sportshub` (import `database/nsbm_sportshub.sql`).
 
-Students are linked to memberships, bookings and tournament registrations by `student_id` using **foreign keys**, and unique keys prevent duplicate joins and registrations.
+Students are linked to memberships, bookings and tournament registrations by student_id using **foreign keys**, and unique keys prevent duplicate joins and registrations.
 
 | Table | Purpose |
 |-------|---------|
-| `admins` | Administrator accounts |
-| `users` | Student accounts |
-| `clubs` | Club profiles, in-charge staff, images, results |
-| `club_memberships` | Student and club membership requests and status |
-| `club_schedules` | Recurring weekly training sessions |
-| `club_special_sessions` | One-off special sessions |
-| `matches` | Fixtures, scores and outcomes |
-| `tournaments` | Tournament details |
-| `tournament_registrations` | Student tournament registrations |
-| `facility_bookings` | Facility booking requests and status |
+| admins | Administrator accounts |
+| users | Student accounts |
+| clubs | Club profiles, in-charge staff, images, results |
+| club_memberships | Student and club membership requests and status |
+| club_schedules | Recurring weekly training sessions |
+| club_special_sessions | One-off special sessions |
+| matches | Fixtures, scores and outcomes |
+| tournaments | Tournament details |
+| tournament_registrations | Student tournament registrations |
+| facility_bookings | Facility booking requests and status |
 
 ---
 
@@ -126,7 +126,7 @@ Students are linked to memberships, bookings and tournament registrations by `st
 
 1. **Clone** the repository into XAMPP's web root:
    ```bash
-   git clone: https://github.com/pasangee-ilesinghe/NSBM--SportsHub.git  C:/xampp/htdocs/nsbm_sportshub
+   git clone: **https://github.com/pasangee-ilesinghe/NSBM--SportsHub.git**  C:/xampp/htdocs/nsbm_sportshub
    ```
 2. Start **Apache** and **MySQL** in the XAMPP Control Panel.
 3. Open **phpMyAdmin** and create a database named `nsbm_sportshub`.
@@ -141,7 +141,7 @@ Students are linked to memberships, bookings and tournament registrations by `st
 
 | Role | Login page | Credentials |
 |------|-----------|-------------|
-| Admin | `/login.php` (select **Admin**) | Username: `Super Admin` / Password: `Admin2004` |
+| Admin | `/login.php` (select **Administrator**) | Username: `Super Admin` / Password: `Admin2004` |
 | Student | `/login.php` | Register a new account, or use `student@gmail.com` / `Student2004` |
 
 ---
