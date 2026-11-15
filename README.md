@@ -1,4 +1,4 @@
-# 🏅 NSBM SportsHub – Sports Club Management System
+# NSBM SportsHub – Sports Club Management System
 
 > **Module:** Web and Mobile Application Development | **Batch:** 26.1 IFSL
 > **Faculty of Computing, NSBM Green University**
@@ -7,18 +7,18 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 
 ---
 
-## 🔗 Project Links
+## Project Links
 
 | Item | Link |
 |------|------|
-| 🌐 Live application | `https://nsbm-sporthub.ct.ws` |
-| 🎥 Demo video | `<ADD YOUTUBE (UNLISTED) LINK>` |
+| Live application | `https://nsbm-sporthub.ct.ws` |
+| Demo video | `<ADD YOUTUBE (UNLISTED) LINK>` |
 
 ---
 
-## ✨ Features
+## Features
 
-### 🛠️ Admin Panel
+### Admin Panel
 - Secure admin login with role-protected pages
 - **Manage clubs:** add, edit, delete clubs (details, venue, in-charge staff, images, recent results)
 - **Membership approvals:** approve, reject or remove membership requests
@@ -28,7 +28,7 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 - **Facility bookings:** approve, reject or delete booking requests
 - **Reports:** participation and performance reports with date filters, plus **PDF export** (FPDF)
 
-### 🎓 Student Panel
+### Student Panel
 - Register and log in
 - Browse and search clubs, and view club details, schedules and results
 - Join clubs, register for tournaments and book training facilities
@@ -36,7 +36,7 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 - Personal dashboard: participation history, cancel bookings or registrations, leave clubs
 - Edit profile and change password
 
-### 🔒 Security
+### Security
 - Passwords hashed with `password_hash()` and verified with `password_verify()`
 - Prepared statements (MySQLi) for all database queries
 - Role-based access control on admin pages
@@ -47,7 +47,7 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -59,7 +59,7 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nsbm_sportshub/
@@ -101,7 +101,7 @@ nsbm_sportshub/
 
 ---
 
-## 🗄️ Database
+## Database
 
 Database name: `nsbm_sportshub` (import `database/nsbm_sportshub.sql`).
 
@@ -122,7 +122,7 @@ Students are linked to memberships, bookings and tournament registrations by `st
 
 ---
 
-## 🚀 Installation (Local – XAMPP)
+## Installation (Local – XAMPP)
 
 1. **Clone** the repository into XAMPP's web root:
    ```bash
@@ -137,7 +137,7 @@ Students are linked to memberships, bookings and tournament registrations by `st
 
 ---
 
-## 🔑 Login Details
+## Login Details
 
 | Role | Login page | Credentials |
 |------|-----------|-------------|
@@ -146,6 +146,6 @@ Students are linked to memberships, bookings and tournament registrations by `st
 
 ---
 
-## 📝 Academic Note
+## Academic Note
 
 Developed for academic purposes at NSBM Green University.
