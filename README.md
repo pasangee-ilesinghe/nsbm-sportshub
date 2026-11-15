@@ -125,9 +125,9 @@ Students are linked to memberships, bookings and tournament registrations by stu
 ## Installation (Local – XAMPP)
 
 1. **Clone** the repository into XAMPP's web root:
-   ```bash
+   
    git clone: https://github.com/pasangee-ilesinghe/NSBM--SportsHub.git  C:/xampp/htdocs/nsbm_sportshub
-   ```
+   
 2. Start **Apache** and **MySQL** in the XAMPP Control Panel.
 3. Open **phpMyAdmin** and create a database named `nsbm_sportshub`.
 4. Select the database, click **Import**, and choose `database/nsbm_sportshub.sql`.
