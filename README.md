@@ -61,7 +61,7 @@ A web application that helps NSBM university sports clubs manage memberships, tr
 
 ## Project Structure
 
-```
+
 nsbm_sportshub/
 ├── index.php                      # Home page
 ├── login.php , logout.php         # Login and logout
@@ -97,7 +97,7 @@ nsbm_sportshub/
 │   └── fpdf.php, font/            # FPDF library
 └── database/
     └── nsbm_sportshub.sql
-```
+
 
 ---
 
